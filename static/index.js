@@ -344,10 +344,10 @@ function shareText(score) {
     }
     SubmitResults();
     if (score <= 19) return '你这样的同学，一定是没用心，把他课给我停咯';
-    if (score <= 49) return '你站直咯，你别动咯，你哪个班的';
-    if (score <= 79) return '你这样的同学，你反思一下';  
-    if (score <= 129) return '你怎么努力都不足为过';
-    if (score <= 179) return '二中加油，二中必胜，二中第一，我们第一';
+    if (score <= 39) return '你站直咯，你别动咯，你哪个班的';
+    if (score <= 69) return '你这样的同学，你反思一下';  
+    if (score <= 119) return '你怎么努力都不足为过';
+    if (score <= 169) return '二中加油，二中必胜，二中第一，我们第一';
     return '超越永无止境';
 }
 
